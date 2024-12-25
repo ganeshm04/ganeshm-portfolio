@@ -47,7 +47,7 @@ const Projects = () => {
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
               <a href={project.live} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full ml-12" target="_blank" 
+              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">Live Preview</a>
             </div>
           ))}
