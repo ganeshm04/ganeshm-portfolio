@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from "../assets/resume.pdf"
+import resume from "../assets/Ganesh Meti Resume.pdf"
+
 
 
 const Resume = () => {
