@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from "../assets/Ganesh Meti Resume.pdf"
+import Ganesh_Meti_Resume from "../assets/Ganesh_Meti_Resume.pdf"
 
 
 
@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <StyledWrapper>
       <button className="button">
-        <a href={resume} className="text-l" target='blank'>Resume</a>
+        <a href={Ganesh_Meti_Resume} className="text-l" target='blank'>Resume</a>
       </button>
     </StyledWrapper>
   );
