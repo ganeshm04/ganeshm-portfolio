@@ -1,7 +1,7 @@
 import React from 'react'
 // import HeroImage from '../assets/hero-image.png'
 import Type from './Type'
-import { IconCloudDemo } from './IconCloudDemo'
+import  IconCloudDemo  from './IconCloudDemo'
 import Socials from './Socials'
 import Resume from './Resume'
 
@@ -28,7 +28,7 @@ const Hero = () => {
             <Resume/>
           </div>
         </div>
-        <div className="hidden md:block  md:w-1/2 relative">
+        <div className="hidden md:block  md:w-1/2 relative mt-5">
           <IconCloudDemo />
         </div>
       </div>

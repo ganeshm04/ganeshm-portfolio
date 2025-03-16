@@ -2,6 +2,7 @@ import React from "react";
 import ems from "../assets/employee-ms.png";
 import chat_app from "../assets/chat_app.png";
 import dab from "../assets/dab.png";
+import ecom from "../assets/ecom.jpeg";
 
 const projects = [
   {
@@ -12,22 +13,29 @@ const projects = [
     github: "https://github.com/ganeshm04/EMS",
     live:"https://ganeshm04.github.io/EMS/"
   },
+  // {
+  //   id: 2,
+  //   name: "Doctor Appointment Booking App",
+  //   technologies: "React JS,Node JS,Express JS",
+  //   image: dab,
+  //   github: "https://github.com/ganeshm04/DAB_app",
+  //   live: "https://ganeshm04.github.io/DAB_app/",
+  // },
   {
     id: 2,
-    name: "Doctor Appointment Booking App",
-    technologies: "React JS,Node JS,Express JS",
-    image: dab,
-    github: "https://github.com/ganeshm04/DAB_app",
-    live: "https://ganeshm04.github.io/DAB_app/",
-  },
-  {
-    id: 3,
     name: "Real Time Chat App",
     technologies: "MongoDB,Express JS,React JS,Node JS,Zustand,Socket.io",
     image: chat_app,
     github: "https://github.com/ganeshm04/Full_Stack_Chat_App",
     live: "https://full-stack-chat-app-bcvt.onrender.com/signup",
   },
+  {
+    id:3,
+    name: "FOREVER CLOTHING Platform",
+    technologies: "MERN stack (MongoDB, Express.js, React.js, Node.js), Tailwind CSS, JWT, Stripe API",
+    image: ecom,
+    github: "https://github.com/ganeshm04/E-Commerce-Forever-",
+  }
 ];
 
 const Projects = () => {
@@ -46,9 +54,12 @@ const Projects = () => {
               <a href={project.github} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
               rel="noopener noreferrer">GitHub</a>
-              <a href={project.live} className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full ml-3" target="_blank" 
-              rel="noopener noreferrer">Live Preview</a>
+              {
+                project.live &&
+                <a href={project.live} className="inline-block bg-gradient-to-r 
+                from-green-400 to-blue-500 text-white px-4 py-2 rounded-full ml-3" target="_blank" 
+                rel="noopener noreferrer">Live Preview</a>
+              }
             </div>
           ))}
         </div>
