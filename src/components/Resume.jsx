@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <StyledWrapper>
       <button className="button">
-        <a href={Ganesh_Meti_Resume} className="text-l" target='blank'>Resume</a>
+        <a href="https://drive.google.com/file/d/1yQWGDiVFfKgeLTkOjOkDZZf1S38m9eMp/view?usp=drivesdk"  className="text-l" target='blank'>Resume</a>
       </button>
     </StyledWrapper>
   );
